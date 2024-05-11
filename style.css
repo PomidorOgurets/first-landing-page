@@ -1,0 +1,155 @@
+body {
+    margin: 0px;
+    font-family: "Roboto", sans-serif;
+    text-align: center;
+}
+
+header,
+footer,
+.header-2 {
+    background: #1F2937;
+    color: white;
+}
+
+header,
+footer,
+.header-2,
+.random-information,
+.quote,
+.sign-up-panel {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 200px;
+}
+
+footer,
+.content {
+    flex-direction: column;
+}
+
+.logo {
+    margin-right: auto;
+    font-size: 24px;
+    color: #F9FAF8;
+    font-weight: bold;
+}
+
+header ul {
+    list-style-type: none;
+    display: flex;
+    gap: 8px;
+    margin-left: auto;
+    font-size: 18px;
+}
+
+.header-2 img {
+    width: 30%;
+    height: 30%;
+}
+
+.about-site {
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    height: 30%;
+    align-items: center;
+}
+
+.about-site h1 {
+    font-size: 48px;
+    font-weight: bolder;
+    margin: 0;
+}
+
+p {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+button {
+    background: #3882F6;
+    border-radius: 8px;
+    border: 1px solid #eee;
+    border-color: #E5E7EB;
+    width: 100px;
+    padding: 16px;
+    color: white;
+    font-weight: bold;
+    align-items: center;
+}
+
+.header-2 {
+    padding: 50px 200px;
+}
+
+.random-information {
+    display: flex;
+    flex-direction: column;
+    padding: 50px 200px 0;
+    gap: 16px;
+}
+
+.info-container {
+    display: flex;
+    gap: 16px;
+}
+
+.info img {
+    width: 50%;
+    height: 50%;
+    border-radius: 50%;
+    border: 2px solid #3882F6;
+}
+
+.info .text {
+    margin-top: 8px;
+}
+
+.quote {
+    background: #E5E7EB;
+    font-size: 36px; 
+    display: flex;
+    flex-direction: column;
+    padding: 100px 400px;
+}
+
+.quote p {
+    color: #1F2937;
+    font-style: italic;
+    padding: 0 200px;
+}
+
+.quote .signature {
+    font-style: italic;
+    margin-left: auto;
+}
+
+.sign-up-panel {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sign-up {
+    display: flex;
+    background: #3882F6;
+    align-items: center;
+    text-align: left;
+    margin: 20px;
+    border-radius: 5px;
+}
+
+.sign-bold {
+    font-size: 24px;
+    font-weight: bold;
+    margin: 15px;
+}
+
+.sign-simple {
+    margin: 15px;
+}
+
+.sign-up-panel button {
+    margin: 15px;
+}
